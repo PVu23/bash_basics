@@ -4,37 +4,52 @@
 while [ true ]; do
 
    # you can show a prompt with the read command
-   read -p "Do rae mi fa so la ti do? (q to end) > " note
+   read -p "On the ___ day of Christmas, my true love gave to me. (Choose a number between 1 - 12)> " day
 
-case $note in
+case $day in
    # each case matches a pattern
-   do|Do)
-      echo "Doe a deer a female deer"
+   1)
+      echo "A partridge in a pear tree"
       ;;   
-   rae|Rae)
-      echo "Ray a drop of golden sun"
+   2)
+      echo "2 turtle doves"
       ;;
-   mi|Mi)
-      echo "Me a name a call myself"
+   3)
+      echo "3 french hens"
       ;;
-   fa|Fa)
-      echo "Far a long long way to run"
+   4)
+      echo "4 calling birds"
       ;;
-   so|So)
-      echo "So a note that follows fa"
+   5)
+      echo "5 gold rings"
       ;;
-   la|La)
-      echo "La a note that follow so"
+   6)
+      echo "6 geese a-laying"
       ;;
-   ti|ta)
-      echo "Tea I drink with jam and bread"
+   7)
+      echo "7 swans a-swimming"
+      ;;
+   8)
+      echo "8 maids a-milking"
+      ;;
+   9)
+      echo "9 ladies dancing"
+      ;;
+   10)
+      echo "10 lords a-leaping"
+      ;;
+   11)
+      echo "11 pipers piping"
+      ;;
+   12)
+      echo "12 drummers drumming"
       ;;
    q)
-      echo "Hope you enjoyed the sound of music"
+      echo "Hope you enjoyed your Christmas gifts"
       exit 0
       ;;
    *) 
-      echo "Not a note"
+      echo "Not a day"
       ;;
 esac
 
