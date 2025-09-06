@@ -39,7 +39,6 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Shell Script.01-read_input_ADM.sh.executor": "Run",
     "Shell Script.11-song.sh.executor": "Run",
-    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/plvu/IdeaProjects/bash_basics",
     "node.js.detected.package.eslint": "true",
@@ -88,7 +87,7 @@
       <updated>1756414770955</updated>
       <workItem from="1756414772270" duration="4412000" />
       <workItem from="1757169609769" duration="516000" />
-      <workItem from="1757170132543" duration="1779000" />
+      <workItem from="1757170132543" duration="3068000" />
     </task>
     <task id="LOCAL-00001" summary="Added 01-read_input_ADM_Phillip_Vu.sh">
       <option name="closed" value="true" />
